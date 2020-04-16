@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Vesper+Libre&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/WhatsApp Image 2020-03-30 at 3.44.24 PM.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess</title>
+</head>
+<body>
+
+  <div class="container">
+    <p id="intro">Guess number between 1-100</p>
+    <p id="attempt"> You have 10 attempts</p>
+    <input type="text" id="slot"> <br>
+
+    <input type="submit" id="submit" onclick="give()">
+
+    <p id="remain">Remaining guesses: <span id="rema"></span> </p>
+    <p id="guesses">Past guesses: <span id="gasa"></span> </p>
+
+    <h1 id="ans"></h1>
+
+    <h1 id="range"></h1>
+
+    <input type="submit" id="newgame" onclick="newGame()" value="Start New Game">
+  </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
